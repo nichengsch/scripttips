@@ -1,0 +1,7 @@
+winuse win下使用 提取文件名称大小（字节为单位）（设置忽略目录）
+linux上 提取文件名，大小（统一为字节）对应的列，输出到moutxt  -f参数可改
+比较
+
+可以在win下比较，也可以在linux上，前提是把文件上传下载到同一目录。 
+win下fc命令，但是win和linux行结尾和\n的区别有点难受。建议在linux上使用unix2dos处理。 
+在linux下，使用dos2unix处理win下的txt文件，再使用diff命令比较。
